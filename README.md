@@ -4,14 +4,14 @@ This project provides a diagnostic analysis utilizing BPJS Kesehatan data to exp
 The findings are documented in an accompanying article aimed at supporting data-driven health policies and raising public awareness.
 
 #### Key Highlights
-Analysis of IQI and TBC cases by region and time period
+- Analysis of IQI and TBC cases by region and time period
 
-Visualization of trends, anomalies, and patterns
+- Visualization of trends, anomalies, and patterns
 
-Identification of potential hidden factors influencing case distribution
+- Identification of potential hidden factors influencing case distribution
 
 #### Tools
-Python, Pandas, Matplotlib, Seaborn
+- Python, Pandas, Matplotlib, Seaborn
 
-Jupyter Notebook for analysis and visualization
+- Jupyter Notebook for analysis and visualization
 
