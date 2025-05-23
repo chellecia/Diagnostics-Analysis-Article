@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aa3d478c1a5b3328d3aa45d7d1660700 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_aa3d478c1a5b3328d3aa45d7d1660700" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_aa3d478c1a5b3328d3aa45d7d1660700 = L.map(
+                "map_aa3d478c1a5b3328d3aa45d7d1660700",
+                {
+                    center: [-6.2, 106.85],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_86985b2e6feb9451637b9368d3b9f497 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_86985b2e6feb9451637b9368d3b9f497.addTo(map_aa3d478c1a5b3328d3aa45d7d1660700);
+        
+    
+            var marker_63808f0ff2e22670fd3b261f8876e723 = L.marker(
+                [-6.2154998779296875, 106.8030014038086],
+                {}
+            ).addTo(map_aa3d478c1a5b3328d3aa45d7d1660700);
+        
+    
+            var icon_e5047d1b00ac934ee67916be276b1c18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_63808f0ff2e22670fd3b261f8876e723.setIcon(icon_e5047d1b00ac934ee67916be276b1c18);
+        
+    
+            var marker_0f07474dabf2af9cafd3c0aee8f1f76f = L.marker(
+                [-6.2154998779296875, 106.8030014038086],
+                {}
+            ).addTo(map_aa3d478c1a5b3328d3aa45d7d1660700);
+        
+    
+            var div_icon_41f2587870841dcd8312055cbb908d66 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12px; color: black; font-weight: bold; background-color: white; padding: 8px 16px 8px 8px; border: 1px solid black; border-radius: 10px; min-width: 220px; text-align: center;\"\u003eJakarta GBK\u003cbr\u003eAQI: 131\u003c/div\u003e"});
+            marker_0f07474dabf2af9cafd3c0aee8f1f76f.setIcon(div_icon_41f2587870841dcd8312055cbb908d66);
+        
+    
+            var marker_1717d53f09a299330af869550fc659db = L.marker(
+                [-6.280048383, 106.79944217205],
+                {}
+            ).addTo(map_aa3d478c1a5b3328d3aa45d7d1660700);
+        
+    
+            var icon_06318413e3788f36eee9fd2c8354b116 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1717d53f09a299330af869550fc659db.setIcon(icon_06318413e3788f36eee9fd2c8354b116);
+        
+    
+            var marker_62513272407432cfed036f4c1871ca60 = L.marker(
+                [-6.280048383, 106.79944217205],
+                {}
+            ).addTo(map_aa3d478c1a5b3328d3aa45d7d1660700);
+        
+    
+            var div_icon_3e16b50e8499fc30a2daa7cb3bf6c11f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12px; color: black; font-weight: bold; background-color: white; padding: 8px 16px 8px 8px; border: 1px solid black; border-radius: 10px; min-width: 220px; text-align: center;\"\u003eJalan BDN II, South Jakarta\u003cbr\u003eAQI: 83\u003c/div\u003e"});
+            marker_62513272407432cfed036f4c1871ca60.setIcon(div_icon_3e16b50e8499fc30a2daa7cb3bf6c11f);
+        
+    
+            var marker_7ac4f29d1c9757343a65f0336a5270ec = L.marker(
+                [-6.1603721, 106.8473377],
+                {}
+            ).addTo(map_aa3d478c1a5b3328d3aa45d7d1660700);
+        
+    
+            var icon_43c24260bde590f5a5df7fde3b5fc2f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7ac4f29d1c9757343a65f0336a5270ec.setIcon(icon_43c24260bde590f5a5df7fde3b5fc2f5);
+        
+    
+            var marker_868aae5d0d2b6164292a22a224730a6f = L.marker(
+                [-6.1603721, 106.8473377],
+                {}
+            ).addTo(map_aa3d478c1a5b3328d3aa45d7d1660700);
+        
+    
+            var div_icon_46b5154942a622e062a54dd0703b649b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12px; color: black; font-weight: bold; background-color: white; padding: 8px 16px 8px 8px; border: 1px solid black; border-radius: 10px; min-width: 220px; text-align: center;\"\u003eKemayoran, Jakarta Pusat\u003cbr\u003eAQI: 175\u003c/div\u003e"});
+            marker_868aae5d0d2b6164292a22a224730a6f.setIcon(div_icon_46b5154942a622e062a54dd0703b649b);
+        
+    
+            var marker_15d87e557315861e08e88fe7fcba9cae = L.marker(
+                [-6.096574, 106.961349],
+                {}
+            ).addTo(map_aa3d478c1a5b3328d3aa45d7d1660700);
+        
+    
+            var icon_d7f19a953b1d637958fa9d9f5437d292 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_15d87e557315861e08e88fe7fcba9cae.setIcon(icon_d7f19a953b1d637958fa9d9f5437d292);
+        
+    
+            var marker_e4cb27c8d57fdd48a2d390b47c6cd56b = L.marker(
+                [-6.096574, 106.961349],
+                {}
+            ).addTo(map_aa3d478c1a5b3328d3aa45d7d1660700);
+        
+    
+            var div_icon_b626b02726c4789678623ca68b6cf574 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12px; color: black; font-weight: bold; background-color: white; padding: 8px 16px 8px 8px; border: 1px solid black; border-radius: 10px; min-width: 220px; text-align: center;\"\u003eMarunda, Jakarta Utara\u003cbr\u003eAQI: 111\u003c/div\u003e"});
+            marker_e4cb27c8d57fdd48a2d390b47c6cd56b.setIcon(div_icon_b626b02726c4789678623ca68b6cf574);
+        
+    
+            var marker_06ceaa938a709c6810b4e38588530e28 = L.marker(
+                [-6.236704, 106.79324],
+                {}
+            ).addTo(map_aa3d478c1a5b3328d3aa45d7d1660700);
+        
+    
+            var icon_941d466693530ffe5bb34f16edcb30d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_06ceaa938a709c6810b4e38588530e28.setIcon(icon_941d466693530ffe5bb34f16edcb30d1);
+        
+    
+            var marker_6bdc12f4c7625e531192ba352a16ad1f = L.marker(
+                [-6.236704, 106.79324],
+                {}
+            ).addTo(map_aa3d478c1a5b3328d3aa45d7d1660700);
+        
+    
+            var div_icon_1b029c37fd27861ca49735937a6a26cb = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12px; color: black; font-weight: bold; background-color: white; padding: 8px 16px 8px 8px; border: 1px solid black; border-radius: 10px; min-width: 220px; text-align: center;\"\u003eSouth Jakarta\u003cbr\u003eAQI: 107\u003c/div\u003e"});
+            marker_6bdc12f4c7625e531192ba352a16ad1f.setIcon(div_icon_1b029c37fd27861ca49735937a6a26cb);
+        
+</script>
+</html>
