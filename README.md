@@ -34,6 +34,8 @@ This project conducts a comprehensive diagnostic analysis using **BPJS Kesehatan
 🗺️ Explore TBC distribution across Jakarta via interactive HTML map:  
 👉 [Click to view the map](https://github.com/chellecia/Diagnostics-Analysis-Article/blob/main/jakarta_aqi_map_with_wider_labels.html)
 
+[View the Jakarta AQI + TBC Interactive Map](https://chellecia.github.io/Diagnostics-Analysis-Article/jakarta_aqi_map_with_wider_labels.html)**  
+> *(Hosted on GitHub Pages — explore spatial insights of pollution and TBC cases)*
 ---
 
 ## 🔎 Hidden Insights: TB Beyond the Surface
