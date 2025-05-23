@@ -37,6 +37,12 @@ This project conducts a comprehensive diagnostic analysis using **BPJS Kesehatan
 
 ---
 
+## 🌬️ Air Quality Data
+
+Data AQI (Air Quality Index) for Jakarta was retrieved from the [AQICN API](https://aqicn.org/city/indonesia/), which provides real-time air quality information. 
+
+---
+
 ## 🔎 Hidden Insights: TB Beyond the Surface
 
 ### 💉 TB & Diabetes: A Dangerous Pair
@@ -51,7 +57,6 @@ This project conducts a comprehensive diagnostic analysis using **BPJS Kesehatan
 - Most cases are in **women of reproductive age** and **seniors (60+)**.
 - Elderly face greater complications due to weakened immunity and comorbidities.
 - Many female patients also access **maternal health and contraception services**, reflecting health access burdens.
-
 
 ## 👩‍⚕️ Conclusion
 
