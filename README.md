@@ -1,17 +1,64 @@
-### Diagnostic Analysis of IQI and Tuberculosis in Jakarta
-This project provides a diagnostic analysis utilizing BPJS Kesehatan data to explore Indonesia’s Quality Indicators (IQI) and Tuberculosis (TBC) cases in Jakarta. The analysis reveals key insights into public health trends and patterns of healthcare utilization.
+# 🩺 Diagnostic Analysis of IQI and Tuberculosis in Jakarta
 
-The findings are documented in an accompanying article aimed at supporting data-driven health policies and raising public awareness.
+This project conducts a comprehensive diagnostic analysis using **BPJS Kesehatan** data to explore **Indonesia’s Quality Indicators (IQI)** and **Tuberculosis (TBC)** cases in Jakarta. The goal is to uncover public health trends, identify co-morbidities, and provide evidence-based insights for policy-making.
 
-#### Key Highlights
-- Analysis of IQI and TBC cases by region and time period
+📄 The findings are also compiled into an accompanying article to promote public awareness and support data-driven health interventions.
 
-- Visualization of trends, anomalies, and patterns
+---
 
-- Identification of potential hidden factors influencing case distribution
+## ✨ Key Highlights
 
-#### Tools
-- Python, Pandas, Matplotlib, Seaborn
+- 📍 **Regional & Temporal Analysis**  
+  Trends of IQI and TBC cases by Jakarta districts and across time
 
-- Jupyter Notebook for analysis and visualization
+- 📊 **Visual Insights**  
+  Interactive charts and heatmaps showing anomalies and hotspots
 
+- 🧩 **Hidden Insights Discovered**  
+  - Strong correlation between **Tuberculosis and Diabetes**  
+  - TB prevalence is higher in **females** and **elderly**  
+  - **Air pollution** (PM2.5 & NO₂) as an aggravating factor  
+  - Frequent co-diagnoses: **Diabetes (E11, E14)**, **Hypertension (I10)**, **Contraception services (Z30)**, and **Normal childbirth (O80)**
+
+---
+
+## 🧪 Tools & Technologies
+
+- **Python** for data manipulation and analysis  
+- **Pandas**, **Matplotlib**, **Seaborn**, **Folium** for EDA & visualization  
+- **Jupyter Notebook** as the primary development environment  
+
+---
+
+## 🌍 Interactive Map
+
+🗺️ Explore TBC distribution across Jakarta via interactive HTML map:
+
+**`file:///D:/ANALISIS%20BIG%20DATA_SEM5/ADC%20ARTIKEL/jakarta_aqi_map_with_wider_labels.html`**  
+*(Note: Open this file locally or consider hosting it via GitHub Pages for public access.)*
+
+---
+
+## 🔎 Hidden Insights: TB Beyond the Surface
+
+### 💉 TB & Diabetes: A Dangerous Pair
+- Diabetics are **3x more likely** to develop active TB due to weakened immunity.
+- TB complicates diabetes treatment by disrupting glucose regulation and interfering with medication.
+
+### 🌫️ The Air We Breathe: Pollution’s Role
+- Particulate matter (PM2.5, NO₂) causes chronic inflammation in the lungs, increasing TB vulnerability.
+- Residents of highly polluted districts showed higher TB prevalence.
+
+### 🚺 TB Affects More Women & the Elderly
+- Most cases are in **women of reproductive age** and **seniors (60+)**.
+- Elderly face greater complications due to weakened immunity and comorbidities.
+- Many female patients also access **maternal health and contraception services**, reflecting health access burdens.
+
+
+## 👩‍⚕️ Conclusion
+
+> “Kesehatan adalah tentang akses dan perlindungan untuk semua, tanpa memandang usia atau jenis kelamin.”  
+
+This analysis shows how combining diagnostic health data with environmental factors and demographics can reveal critical insights for improving public health outcomes in urban populations.
+
+---
