@@ -32,7 +32,7 @@ This project conducts a comprehensive diagnostic analysis using **BPJS Kesehatan
 
 ## 🌍 Interactive Map
 🗺️ Explore TBC distribution across Jakarta via interactive HTML map:  
-👉 [Click to view the map](https://github.com/USERNAME/REPO-NAME/blob/main/maps/jakarta_aqi_map_with_wider_labels.html)
+👉 [Click to view the map](https://github.com/chellecia/Diagnostics-Analysis-Article/blob/main/jakarta_aqi_map_with_wider_labels.html)
 
 ---
 
